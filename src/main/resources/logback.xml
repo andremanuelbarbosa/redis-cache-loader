@@ -1,0 +1,12 @@
+<configuration>
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>logs/redis-cache-loader.log</file>
+    <encoder>
+      <pattern>%date{ISO8601} [%thread] %-5level %logger{10}.%M - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="debug">
+    <appender-ref ref="FILE" />
+  </root>
+</configuration>
