@@ -1,4 +1,4 @@
-package com.andremanuelbarbosa.redis.cacheloader;
+package com.andremanuelbarbosa.redis.cache.loader;
 
 import java.util.LinkedList;
 import java.util.List;

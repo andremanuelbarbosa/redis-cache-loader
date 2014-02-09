@@ -1,4 +1,4 @@
-package com.andremanuelbarbosa.redis.cacheloader;
+package com.andremanuelbarbosa.redis.cache.loader;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
